@@ -1,0 +1,85 @@
+.meal-card {
+  min-width: 800px;
+  max-width: 1000px;
+
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.meal-thumbnail img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.meal-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.meal-title h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.meal-title h3 {
+  font-size: 25px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.meal-title a {
+  color: rgb(38, 38, 38);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.meal-title a:hover {
+  color: rgb(108, 108, 108);
+}
+
+.meal-tags {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.meal-tags-liner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.meal-tag {
+  background-color: #a1e3f9;
+  padding: 4px 8px;
+  border-radius: 999px;
+}
+
+.meal-ingredients {
+  list-style-position: inside;
+  margin-left: 10px;
+  border-right: 2px solid rgb(161, 161, 161);
+}
+
+.meal-ingredients li {
+  margin-bottom: 5px;
+}
+
+.meal-instructions {
+  line-height: 1.8;
+}
